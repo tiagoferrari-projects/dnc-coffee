@@ -1,0 +1,27 @@
+.btn-comprar {
+    width: 202px;
+    height: 48px;
+    background-color: #2A3342;
+    color: #F6F5FB;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    visibility: hidden;
+
+}
+
+.btn-comprar:hover {
+    transition: 0.5s;
+    background-color: #000000;
+}
+
+.card {
+    align-items: center;
+}
+
+.card:hover {
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgb(99, 92, 92);
+}
