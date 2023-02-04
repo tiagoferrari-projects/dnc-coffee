@@ -8,6 +8,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
+    margin: 20px 0px 30px 0px;
     visibility: hidden;
 
 }
@@ -24,4 +25,68 @@
 .card:hover {
     transition: 0.5s;
     box-shadow: 5px 5px 5px rgb(99, 92, 92);
+}
+
+.modalAttendance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    position: relative;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+
+.modalAttendance h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.modalAttendance p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 200%;
+}
+
+.modalAttendance>button:first-of-type {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+
+.modalAttendance>button:last-of-type {
+    font-weight: 700;
+    font-size: 20px;
+    color: #f6f5fb;
+    background: #2a3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin-top: 65px;
+    font-family: "Raleway";
+}
+
+#modalPlace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(217, 217, 217, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    visibility: hidden;
 }
